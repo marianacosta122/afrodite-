@@ -1,0 +1,128 @@
+
+body {
+    background-color: #DD9A9A;
+}
+
+#menu {
+   text-align: center;
+   margin: 15px 0;
+   font-size: 1.1em;
+}
+#menu a {
+   color: #a13d3d;
+   text-decoration: none;
+   margin: 0 8px;
+}
+#menu a:hover {
+    text-decoration: underline;
+    color: #7a2a2a
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #a13d3d;
+    margin-bottom: 10px;
+}
+.principal
+{
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff8f8;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+    rgba(0,0,0,0,1);
+    border: 2px solid #DD9B9B;
+}
+.linha {
+    color: red;
+    background-color: red;
+}
+.intro {
+    height: auto;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #DD9A9A;
+    width: 45%;
+}
+.intro {
+     background-color: #f5d6d6;
+     padding: 20px;
+     border-radius: 15px;
+     margin: 10px 0;
+}
+.contexto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top:20px;
+}
+.texto-contexto {
+    flex: 1;
+    min-width: 0;
+}
+.imagem-contexto { 
+    flex: 0 0 300px; 
+    max-width: 300px;
+}
+.imagem-contexto img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid;
+    box-shadow: 0 4px 12px 
+rgba(0,0,0,0,2);
+    display: block;
+}
+section {
+   margin-bottom: 40px;
+}
+h2 {
+    color: #a13d3d;
+    font-size: 1.8em;
+    border-bottom: 2px solid #e8b4b4;
+    padding-bottom: 5px;
+}
+h3 {
+   color: #6b3a3a;
+   font-size: 1.3em;
+   margin-top: 5px;
+}
+.item-paralelo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 15px 0;
+}
+.item-paralelo img {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #DD9B9B;
+}
+.item-paralelo p {
+    flex: 1;
+}
+@media (max-width: 600px) {
+    .item-paralelo {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+hr {
+    border: none;
+    border-top: 2px dashed #dd9b9b;
+    margin: 20px 0;
+}
+ol, ul {
+    padding-left: 25px;
+    line-height: 1.8;
+}
+li {
+    margin-bottom: 8px;
+}
+.contatos {
+    text-align: center;
+    background-color: #a13d3d;
+}
